@@ -13,8 +13,6 @@ public class ThirdPartyApiApplication {
 		SpringApplication.run(ThirdPartyApiApplication.class, args);
 	}
 
-	// Register WebClient
-
 	// Register RestTemplate
 	@Bean
 	public RestTemplate restTemplate() {
